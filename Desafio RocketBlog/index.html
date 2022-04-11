@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <img
+          src="./images/logo.svg"
+          alt="Logo tipo do blog, escrito com letras brancas e tamanho grande a palabra The Blog e um ponto no final com a cor verde"
+        />
+
+        <div class="menu">
+          <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+            <li>Categorias</li>
+            <li>Contato</li>
+          </ul>
+        </div>
+
+        <datalist id="search-options">
+          <option value="reactjs"></option>
+          <option value=".dotnet"></option>
+        </datalist>
+
+        <form>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            list="search-options"
+            alt="Search"
+            placeholder="Search"
+          />
+          <button type="submit">
+            <img src="./images/search.svg" alt="" />
+          </button>
+        </form>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container">
+          <article>
+            <h1>
+              Veja o guia definitivo para conquistar seus objetivos como DEV em
+              2022
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+              commodi maxime nulla eius qui perspiciatis! Tenetur, aut a tempora
+              deserunt quia facilis perferendis fugiat
+            </p>
+            <div>
+              <a
+                href="https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e"
+                target="_blank"
+                >Veja mais!
+              </a>
+
+              <img
+                class="home-arrow"
+                src="/images/arrow-right.svg"
+                alt="uma seta apontada para o lado direito de cor verde florecente, com significado de ir para o link."
+              />
+            </div>
+          </article>
+          <article>
+            <figure>
+              <img src="./images/featured-image.png" alt="" />
+            </figure>
+          </article>
+        </div>
+      </section>
+
+      <div class="divider-section">
+        <hr size="10" />
+      </div>
+
+      <section class="section" id="post1">
+        <div class="container post">
+          <article>
+            <figure>
+              <img src="/images/post-1.png" alt="" />
+              <figcaption>Janeiro 04,2022</figcaption>
+              <h3>Começando no ReactJS em 2022</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit
+                vitae, sed tristique nibh nibh eu in aliquet ut adipiscing
+                neque. Sed volutpat aenean sit vitae, sed tristique. Sed
+                volutpat aenean.
+              </p>
+            </figure>
+          </article>
+          <article>
+            <aside>
+              <div>
+                <p>Janeiro 04,2022</p>
+                <h2>
+                  Conheça as principais técnicas para conseguir uma vaga
+                  internacional em programação
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                  nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean
+                  sit vitae, sed tristique.
+                </p>
+              </div>
+              <hr />
+              <div>
+                <p>Janeiro 04,2022</p>
+                <h3>Veja a evolução do Front-end na prática</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
+                  nibh eu in aliquet ut adipiscing neque.
+                </p>
+              </div>
+            </aside>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="post2">
+        <div class="container post">
+          <figure>
+            <img src="./images/post-2.png" alt="" />
+            <figcaption>Janeiro 04,2022</figcaption>
+            <h3>10 dicas para conseguir a vaga desejada</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </figure>
+          <figure>
+            <img src="./images/post-3.png" alt="" />
+            <figcaption>Janeiro 04,2022</figcaption>
+            <h3>Deixe seu código mais semântico com essas dicas</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </figure>
+          <figure>
+            <img src="./images/post-4.png" alt="" />
+            <figcaption>Janeiro 04,2022</figcaption>
+            <h3>Use essas dicas nas suas aplicações mobile</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh
+              eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae,
+              sed tristique.
+            </p>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

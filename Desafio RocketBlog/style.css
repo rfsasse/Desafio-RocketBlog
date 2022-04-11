@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+  --light-purple-ln: #F2E7FA;
+}
+
+.container {
+  margin:0 8.5rem;
+  display: flex;
+  gap: 1.875rem;
+  padding: 4.375rem 0;
+}
+
+/*HEADER*/
+
+header {
+  color: #fbf6ff;
+  background-color: var(--purple-bg);
+}
+
+
+nav {
+  display: flex;
+  padding: 3.7rem 0 0 0;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 0;
+}
+
+nav.container {
+  padding: 4.375rem 0  0;
+}
+
+img {
+  flex: 0 1;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu ul {
+  flex: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+
+  display: flex;
+  gap: 2rem;
+
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  list-style: none;
+
+  height: 1.5rem;
+}
+
+.menu li {
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.menu ul li:hover {
+  border-left: 3px solid var(--green);
+  font-weight: bold;
+}
+
+form {
+  flex: 0 1;
+  display: flex;
+  min-height: 2.75rem;
+}
+
+input {
+  border-radius: 0.3rem 0 0 0.3rem;
+  background-color: var(--dark-bg);
+  border-style: none;
+  flex-basis: 14.375rem;
+  color: var(--light-purple);
+  font: normal normal 400 0.87rem/0rem "Roboto", sans-serif;
+  outline: 0;
+  padding-left: 1.6rem;
+}
+
+input::placeholder {
+  color: var(--light-purple);
+}
+
+button {
+  background-color: var(--button-bg);
+  width: 4.37rem;
+  border-style: none;
+  border-radius: 0 0.3rem 0.3rem 0;
+}
+
+/*HOME*/
+
+#home {
+  background-color: var(--purple-bg);
+}
+
+#home .container {
+  display: flex;
+  
+}
+
+#home .container article {
+  flex: 1;
+}
+
+
+
+
+
+#home .container h1 {
+  font:normal normal 700 2.25rem/3.37rem "Poppins", sans-serif;
+  color: var(--button-bg);
+}
+
+#home .container p {
+  margin: 1rem 0 1.5rem 0;
+  font: normal normal 400 1.12rem/1.68rem "Roboto", sans-serif;
+  color: var(--light-purple);
+  line-height: 1.68rem;
+  text-align: left;
+  padding-right: 6.25rem;
+}
+
+#home .container div {
+  display: flex;
+  flex-direction: row;
+  gap: .4rem;
+}
+
+#home .container a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700, bold;
+  color: var(--button-bg);
+  max-width: max-content;
+  text-decoration: none;
+}
+
+#home  .home-arrow {
+  max-width: min-content;
+  height: 1.32rem;
+}
+
+
+
+  
+
+/*CONTENT*/
+
+.divider-section {
+  background-color: var(--green);
+}
+
+#post2,
+#post1 {
+  background-color: var(--light-purple);
+}
+
+.post article:nth-child(1),
+.post article:nth-child(2){
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.post aside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.3175rem;
+}
+
+.post figcaption,
+.post article h3,
+.post p {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+} 
+
+.post p {
+  font: 400 1rem/1.68rem "Roboto", sans-serif;
+  line-height: 1.5rem;
+}
+
+.post h2 {
+  font: 700 1.5rem/2.25rem "Poppins", sans-serif;
+  color: var(--purple-bg);
+}
+
+.post h3 {
+  font: 700 1.5rem/2.25rem "Roboto", sans-serif;
+  color: var(--purple-bg);
+}
+
+.post aside h2,
+.post aside h3,
+.post aside p {
+  margin-bottom: 0.5rem;
+} 
+
+.post hr {
+  margin: 1.48rem 0;
+  background-color: var(--light-purple-ln);
+  opacity: 0.2;
+}
+
+#post1 .container {
+ padding-bottom: 0;
+}
+
+#post2 .container {
+  display: flex;
+  gap: 1.875rem;
+  justify-content: center;  
+  align-items: center;
+}
